@@ -12,7 +12,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/api': {
-        target: 'http://dexter-api.omli.in',
+        target: 'http://localhost:8000',
         changeOrigin: true
       }
     }
